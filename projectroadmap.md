@@ -5,8 +5,8 @@
 - [x] Select project topic and add to Teams spreadsheet
 - [ ] Edit and commit changes to readme.md
 - [ ] Explore existing repositories
-- [ ] Clone and test example repositories 
-https://github.com/DarwinLozada/sudoku_game_with_gui
+- [ ] Clone and test example repositories:  
+https://github.com/DarwinLozada/sudoku_game_with_gui  
 https://github.com/PiyushG14/Pygame-sudoku
 
 ## Sprint 2 (Core Functionality)
