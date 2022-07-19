@@ -55,10 +55,13 @@ def start_the_game():
 
     # change difficulty
     if (difficulty[0] == 1):
+        pygame.display.set_caption("Sudoku - Easy")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=easy", verify=False)
     if (difficulty[0] == 2):
+        pygame.display.set_caption("Sudoku - Medium")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=medium", verify=False)
     if (difficulty[0] == 3):
+        pygame.display.set_caption("Sudoku - Hard")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=hard", verify=False)
     
     grid = response.json()['board']
