@@ -55,13 +55,10 @@ def start_the_game():
 
     # change difficulty
     if (difficulty[0] == 1):
-        print("easy game")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=easy", verify=False)
     if (difficulty[0] == 2):
-        print("med game")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=medium", verify=False)
     if (difficulty[0] == 3):
-        print("hard game")
         response = requests.get("https://sugoku.herokuapp.com/board?difficulty=hard", verify=False)
     
     grid = response.json()['board']
