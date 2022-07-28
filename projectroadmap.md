@@ -22,5 +22,5 @@ https://github.com/PiyushG14/Pygame-sudoku
 ***
 - [x] Add buttons for starting game, selecting difficulty, resetting board, returning to main menu)
 - [ ] Highlight selected cell on user click
-- [ ] Style the application
+- [x] Style the application
 - [ ] Create powerpoint presentation
